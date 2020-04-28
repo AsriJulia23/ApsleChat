@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171906397325",
+    "firebase_url": "https://realtime-63d3e.firebaseio.com",
+    "project_id": "realtime-63d3e",
+    "storage_bucket": "realtime-63d3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171906397325:android:8325d1e66441f611ac9ec4",
+        "android_client_info": {
+          "package_name": "com.example.chatrealtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171906397325-5bsdhehipo1t13dac8teio1argom4nmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatrealtime",
+            "certificate_hash": "952d8ecf61c90b2bc44d46a60cbb177c68fa404d"
+          }
+        },
+        {
+          "client_id": "171906397325-1kdlig25gme47p63blb85obl3v7aijbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEE7Z2gLNav__-uiDkhgcHJHY14AqDpNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171906397325-1kdlig25gme47p63blb85obl3v7aijbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

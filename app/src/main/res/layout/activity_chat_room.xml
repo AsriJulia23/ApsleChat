@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.chatrealtime.ChatRoom"
+    android:weightSum="1"
+    >
+
+
+   <include
+       android:id="@+id/chat_toolbar"
+       layout="@layout/app_bar_layout">
+   </include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/private_mesaage_list_of_users"
+        android:layout_below="@id/chat_toolbar"
+        android:layout_above="@id/my_linear_layout"
+        android:layout_marginBottom="6dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_linear_layout"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_attach_file_black_24dp"
+            android:id="@+id/send_files_btn"
+            android:layout_alignParentStart="true"
+            android:backgroundTint="@android:color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_message"
+            android:hint="write your message here...."
+            android:padding="15dp"
+            android:maxLines="5"
+            android:layout_toEndOf="@id/send_files_btn"
+            android:layout_toStartOf="@id/send_message_btn"/>
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send_black_24dp"
+            android:id="@+id/send_message_btn"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@android:color/white"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
